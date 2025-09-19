@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker, relationship, Session
 from pydantic import BaseModel
 from typing import List, Optional
 
-DATABASE_URL = "postgresql://avnadmin:AVNS_hTqfB48BIOmlvOOHHsP@pg-28fe0712-ahmed-54d9.h.aivencloud.com:26258/yoga-me"
+DATABASE_URL = ""
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
